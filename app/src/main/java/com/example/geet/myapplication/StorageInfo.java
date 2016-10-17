@@ -23,6 +23,7 @@ public class StorageInfo {
         } else {
             res.append("SD card");
         }
+        int i=1;
         if (readonly) {
             res.append(" (Read only)");
         }

@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 }else{
                     wifiManager.setWifiEnabled(false);
                 }
+                int i=1;
             }
         });
         List<StorageInfo> info = new ArrayList<>(getStorageList());
